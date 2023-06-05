@@ -1,0 +1,186 @@
+goos: darwin
+goarch: amd64
+pkg: test/bench/go1
+cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+BenchmarkBinaryTree17-12             	       1	2278934610 ns/op
+BenchmarkBinaryTree17-12             	       1	2270239265 ns/op
+BenchmarkBinaryTree17-12             	       1	2268049511 ns/op
+BenchmarkBinaryTree17-12             	       1	2281955253 ns/op
+BenchmarkBinaryTree17-12             	       1	2259452046 ns/op
+BenchmarkBinaryTree17-12             	       1	2246596742 ns/op
+BenchmarkFannkuch11-12               	       1	1804569309 ns/op
+BenchmarkFannkuch11-12               	       1	1786835810 ns/op
+BenchmarkFannkuch11-12               	       1	1837508287 ns/op
+BenchmarkFannkuch11-12               	       1	1772724894 ns/op
+BenchmarkFannkuch11-12               	       1	1801278384 ns/op
+BenchmarkFannkuch11-12               	       1	1777552441 ns/op
+BenchmarkFmtFprintfEmpty-12          	54971386	        20.86 ns/op
+BenchmarkFmtFprintfEmpty-12          	54802189	        21.29 ns/op
+BenchmarkFmtFprintfEmpty-12          	56971870	        20.99 ns/op
+BenchmarkFmtFprintfEmpty-12          	57090466	        21.58 ns/op
+BenchmarkFmtFprintfEmpty-12          	56881755	        21.15 ns/op
+BenchmarkFmtFprintfEmpty-12          	57278995	        21.16 ns/op
+BenchmarkFmtFprintfString-12         	34310586	        36.65 ns/op
+BenchmarkFmtFprintfString-12         	34548748	        36.06 ns/op
+BenchmarkFmtFprintfString-12         	33927808	        35.73 ns/op
+BenchmarkFmtFprintfString-12         	32339400	        36.01 ns/op
+BenchmarkFmtFprintfString-12         	33272287	        37.06 ns/op
+BenchmarkFmtFprintfString-12         	34134792	        37.38 ns/op
+BenchmarkFmtFprintfInt-12            	28053924	        42.95 ns/op
+BenchmarkFmtFprintfInt-12            	27888696	        43.79 ns/op
+BenchmarkFmtFprintfInt-12            	27608679	        43.64 ns/op
+BenchmarkFmtFprintfInt-12            	28396530	        42.69 ns/op
+BenchmarkFmtFprintfInt-12            	28068948	        42.88 ns/op
+BenchmarkFmtFprintfInt-12            	27561834	        44.21 ns/op
+BenchmarkFmtFprintfIntInt-12         	16902379	        70.23 ns/op
+BenchmarkFmtFprintfIntInt-12         	17701704	        69.96 ns/op
+BenchmarkFmtFprintfIntInt-12         	16656045	        69.09 ns/op
+BenchmarkFmtFprintfIntInt-12         	16782667	        68.69 ns/op
+BenchmarkFmtFprintfIntInt-12         	17589554	        68.79 ns/op
+BenchmarkFmtFprintfIntInt-12         	17494918	        68.42 ns/op
+BenchmarkFmtFprintfPrefixedInt-12    	14918078	        79.76 ns/op
+BenchmarkFmtFprintfPrefixedInt-12    	14535769	        78.44 ns/op
+BenchmarkFmtFprintfPrefixedInt-12    	14724196	        77.16 ns/op
+BenchmarkFmtFprintfPrefixedInt-12    	15383619	        79.11 ns/op
+BenchmarkFmtFprintfPrefixedInt-12    	15447582	        78.95 ns/op
+BenchmarkFmtFprintfPrefixedInt-12    	15431534	        77.44 ns/op
+BenchmarkFmtFprintfFloat-12          	10472853	       115.3 ns/op
+BenchmarkFmtFprintfFloat-12          	10572141	       114.1 ns/op
+BenchmarkFmtFprintfFloat-12          	10340974	       114.7 ns/op
+BenchmarkFmtFprintfFloat-12          	10432638	       114.9 ns/op
+BenchmarkFmtFprintfFloat-12          	10355142	       117.8 ns/op
+BenchmarkFmtFprintfFloat-12          	10307104	       117.2 ns/op
+BenchmarkFmtManyArgs-12              	 4055668	       289.4 ns/op
+BenchmarkFmtManyArgs-12              	 4046755	       299.2 ns/op
+BenchmarkFmtManyArgs-12              	 4060418	       289.2 ns/op
+BenchmarkFmtManyArgs-12              	 4046602	       294.9 ns/op
+BenchmarkFmtManyArgs-12              	 4102738	       292.0 ns/op
+BenchmarkFmtManyArgs-12              	 4099316	       301.7 ns/op
+BenchmarkGobDecode-12                	     349	   3433102 ns/op	 223.57 MB/s
+BenchmarkGobDecode-12                	     352	   3430995 ns/op	 223.71 MB/s
+BenchmarkGobDecode-12                	     346	   3399393 ns/op	 225.79 MB/s
+BenchmarkGobDecode-12                	     357	   3425087 ns/op	 224.09 MB/s
+BenchmarkGobDecode-12                	     348	   3450673 ns/op	 222.43 MB/s
+BenchmarkGobDecode-12                	     348	   3520298 ns/op	 218.03 MB/s
+BenchmarkGobEncode-12                	     409	   2848444 ns/op	 269.46 MB/s
+BenchmarkGobEncode-12                	     459	   2778118 ns/op	 276.28 MB/s
+BenchmarkGobEncode-12                	     417	   2854985 ns/op	 268.84 MB/s
+BenchmarkGobEncode-12                	     412	   2880467 ns/op	 266.46 MB/s
+BenchmarkGobEncode-12                	     411	   2838109 ns/op	 270.44 MB/s
+BenchmarkGobEncode-12                	     436	   2813411 ns/op	 272.81 MB/s
+BenchmarkGzip-12                     	       8	 138425695 ns/op	 140.18 MB/s
+BenchmarkGzip-12                     	       8	 138608886 ns/op	 140.00 MB/s
+BenchmarkGzip-12                     	       8	 136743546 ns/op	 141.91 MB/s
+BenchmarkGzip-12                     	       8	 140606816 ns/op	 138.01 MB/s
+BenchmarkGzip-12                     	       8	 140062534 ns/op	 138.54 MB/s
+BenchmarkGzip-12                     	       8	 140376788 ns/op	 138.23 MB/s
+BenchmarkGunzip-12                   	      61	  19023460 ns/op	1020.04 MB/s
+BenchmarkGunzip-12                   	      61	  19293930 ns/op	1005.74 MB/s
+BenchmarkGunzip-12                   	      60	  19175537 ns/op	1011.95 MB/s
+BenchmarkGunzip-12                   	      63	  19063624 ns/op	1017.89 MB/s
+BenchmarkGunzip-12                   	      61	  19432312 ns/op	 998.58 MB/s
+BenchmarkGunzip-12                   	      63	  18938632 ns/op	1024.61 MB/s
+BenchmarkHTTPClientServer-12         	   19797	     60356 ns/op
+BenchmarkHTTPClientServer-12         	   19845	     60340 ns/op
+BenchmarkHTTPClientServer-12         	   19945	     60304 ns/op
+BenchmarkHTTPClientServer-12         	   19759	     60391 ns/op
+BenchmarkHTTPClientServer-12         	   19910	     60366 ns/op
+BenchmarkHTTPClientServer-12         	   19864	     61102 ns/op
+BenchmarkJSONEncode-12               	     230	   5215775 ns/op	 372.04 MB/s
+BenchmarkJSONEncode-12               	     230	   5214615 ns/op	 372.12 MB/s
+BenchmarkJSONEncode-12               	     231	   5196983 ns/op	 373.38 MB/s
+BenchmarkJSONEncode-12               	     230	   5246275 ns/op	 369.88 MB/s
+BenchmarkJSONEncode-12               	     229	   5228828 ns/op	 371.11 MB/s
+BenchmarkJSONEncode-12               	     220	   5201567 ns/op	 373.06 MB/s
+BenchmarkJSONDecode-12               	      51	  23255786 ns/op	  83.44 MB/s
+BenchmarkJSONDecode-12               	      51	  23292123 ns/op	  83.31 MB/s
+BenchmarkJSONDecode-12               	      51	  23310237 ns/op	  83.25 MB/s
+BenchmarkJSONDecode-12               	      51	  23243164 ns/op	  83.49 MB/s
+BenchmarkJSONDecode-12               	      54	  23336667 ns/op	  83.15 MB/s
+BenchmarkJSONDecode-12               	      50	  23110407 ns/op	  83.97 MB/s
+BenchmarkMandelbrot200-12            	     416	   2897690 ns/op
+BenchmarkMandelbrot200-12            	     423	   2851423 ns/op
+BenchmarkMandelbrot200-12            	     422	   2884579 ns/op
+BenchmarkMandelbrot200-12            	     412	   2882865 ns/op
+BenchmarkMandelbrot200-12            	     415	   2877165 ns/op
+BenchmarkMandelbrot200-12            	     392	   2865701 ns/op
+BenchmarkGoParse-12                  	     577	   2104937 ns/op	  27.52 MB/s
+BenchmarkGoParse-12                  	     572	   2139764 ns/op	  27.07 MB/s
+BenchmarkGoParse-12                  	     574	   2072805 ns/op	  27.94 MB/s
+BenchmarkGoParse-12                  	     577	   2101804 ns/op	  27.56 MB/s
+BenchmarkGoParse-12                  	     574	   2081594 ns/op	  27.83 MB/s
+BenchmarkGoParse-12                  	     577	   2080723 ns/op	  27.84 MB/s
+BenchmarkRegexpMatchEasy0_32-12      	31319172	        36.46 ns/op	 877.62 MB/s
+BenchmarkRegexpMatchEasy0_32-12      	32571052	        36.78 ns/op	 869.99 MB/s
+BenchmarkRegexpMatchEasy0_32-12      	32958404	        38.10 ns/op	 839.80 MB/s
+BenchmarkRegexpMatchEasy0_32-12      	30454348	        38.11 ns/op	 839.69 MB/s
+BenchmarkRegexpMatchEasy0_32-12      	32986951	        37.33 ns/op	 857.16 MB/s
+BenchmarkRegexpMatchEasy0_32-12      	30497190	        37.18 ns/op	 860.57 MB/s
+BenchmarkRegexpMatchEasy0_1K-12      	10183924	       119.9 ns/op	8542.56 MB/s
+BenchmarkRegexpMatchEasy0_1K-12      	10155753	       120.3 ns/op	8511.70 MB/s
+BenchmarkRegexpMatchEasy0_1K-12      	10494087	       116.9 ns/op	8758.54 MB/s
+BenchmarkRegexpMatchEasy0_1K-12      	10459246	       116.8 ns/op	8769.34 MB/s
+BenchmarkRegexpMatchEasy0_1K-12      	10142755	       120.3 ns/op	8511.87 MB/s
+BenchmarkRegexpMatchEasy0_1K-12      	10007187	       116.9 ns/op	8759.45 MB/s
+BenchmarkRegexpMatchEasy1_32-12      	35849227	        33.36 ns/op	 959.12 MB/s
+BenchmarkRegexpMatchEasy1_32-12      	37169184	        33.98 ns/op	 941.77 MB/s
+BenchmarkRegexpMatchEasy1_32-12      	36373737	        33.59 ns/op	 952.58 MB/s
+BenchmarkRegexpMatchEasy1_32-12      	37211598	        33.32 ns/op	 960.38 MB/s
+BenchmarkRegexpMatchEasy1_32-12      	35912948	        33.71 ns/op	 949.17 MB/s
+BenchmarkRegexpMatchEasy1_32-12      	36832561	        33.45 ns/op	 956.74 MB/s
+BenchmarkRegexpMatchEasy1_1K-12      	 6997531	       182.9 ns/op	5600.19 MB/s
+BenchmarkRegexpMatchEasy1_1K-12      	 7154505	       175.8 ns/op	5824.62 MB/s
+BenchmarkRegexpMatchEasy1_1K-12      	 7042184	       178.0 ns/op	5751.99 MB/s
+BenchmarkRegexpMatchEasy1_1K-12      	 6930602	       177.0 ns/op	5785.13 MB/s
+BenchmarkRegexpMatchEasy1_1K-12      	 7091473	       176.1 ns/op	5816.23 MB/s
+BenchmarkRegexpMatchEasy1_1K-12      	 6820712	       176.8 ns/op	5790.30 MB/s
+BenchmarkRegexpMatchMedium_32-12     	 2224986	       570.5 ns/op	  56.09 MB/s
+BenchmarkRegexpMatchMedium_32-12     	 2203896	       565.3 ns/op	  56.61 MB/s
+BenchmarkRegexpMatchMedium_32-12     	 2250709	       565.6 ns/op	  56.58 MB/s
+BenchmarkRegexpMatchMedium_32-12     	 2246178	       568.6 ns/op	  56.28 MB/s
+BenchmarkRegexpMatchMedium_32-12     	 2295295	       568.1 ns/op	  56.33 MB/s
+BenchmarkRegexpMatchMedium_32-12     	 2237522	       569.8 ns/op	  56.16 MB/s
+BenchmarkRegexpMatchMedium_1K-12     	   65438	     18473 ns/op	  55.43 MB/s
+BenchmarkRegexpMatchMedium_1K-12     	   62763	     18056 ns/op	  56.71 MB/s
+BenchmarkRegexpMatchMedium_1K-12     	   66306	     19739 ns/op	  51.88 MB/s
+BenchmarkRegexpMatchMedium_1K-12     	   66219	     18533 ns/op	  55.25 MB/s
+BenchmarkRegexpMatchMedium_1K-12     	   67777	     18125 ns/op	  56.50 MB/s
+BenchmarkRegexpMatchMedium_1K-12     	   66751	     19378 ns/op	  52.84 MB/s
+BenchmarkRegexpMatchHard_32-12       	 1528018	       781.9 ns/op	  40.93 MB/s
+BenchmarkRegexpMatchHard_32-12       	 1510422	       809.1 ns/op	  39.55 MB/s
+BenchmarkRegexpMatchHard_32-12       	 1513610	       803.9 ns/op	  39.81 MB/s
+BenchmarkRegexpMatchHard_32-12       	 1521968	       787.6 ns/op	  40.63 MB/s
+BenchmarkRegexpMatchHard_32-12       	 1508306	       801.2 ns/op	  39.94 MB/s
+BenchmarkRegexpMatchHard_32-12       	 1517940	       781.4 ns/op	  40.95 MB/s
+BenchmarkRegexpMatchHard_1K-12       	   47272	     25256 ns/op	  40.54 MB/s
+BenchmarkRegexpMatchHard_1K-12       	   48549	     24858 ns/op	  41.19 MB/s
+BenchmarkRegexpMatchHard_1K-12       	   49270	     25296 ns/op	  40.48 MB/s
+BenchmarkRegexpMatchHard_1K-12       	   49820	     24590 ns/op	  41.64 MB/s
+BenchmarkRegexpMatchHard_1K-12       	   48412	     24864 ns/op	  41.18 MB/s
+BenchmarkRegexpMatchHard_1K-12       	   50596	     25426 ns/op	  40.27 MB/s
+BenchmarkRevcomp-12                  	       5	 255290942 ns/op	 995.60 MB/s
+BenchmarkRevcomp-12                  	       5	 244425388 ns/op	1039.85 MB/s
+BenchmarkRevcomp-12                  	       5	 247252590 ns/op	1027.96 MB/s
+BenchmarkRevcomp-12                  	       5	 243788970 ns/op	1042.57 MB/s
+BenchmarkRevcomp-12                  	       5	 249336335 ns/op	1019.37 MB/s
+BenchmarkRevcomp-12                  	       5	 244541107 ns/op	1039.36 MB/s
+BenchmarkTemplate-12                 	      34	  33313603 ns/op	  58.25 MB/s
+BenchmarkTemplate-12                 	      34	  32983158 ns/op	  58.83 MB/s
+BenchmarkTemplate-12                 	      36	  32454065 ns/op	  59.79 MB/s
+BenchmarkTemplate-12                 	      36	  32876565 ns/op	  59.02 MB/s
+BenchmarkTemplate-12                 	      36	  32339774 ns/op	  60.00 MB/s
+BenchmarkTemplate-12                 	      36	  32773618 ns/op	  59.21 MB/s
+BenchmarkTimeParse-12                	 7863745	       146.6 ns/op
+BenchmarkTimeParse-12                	 8167688	       147.4 ns/op
+BenchmarkTimeParse-12                	 8146777	       147.4 ns/op
+BenchmarkTimeParse-12                	 8056808	       145.7 ns/op
+BenchmarkTimeParse-12                	 8170521	       149.6 ns/op
+BenchmarkTimeParse-12                	 7466720	       146.5 ns/op
+BenchmarkTimeFormat-12               	 7048479	       169.3 ns/op
+BenchmarkTimeFormat-12               	 6803120	       169.5 ns/op
+BenchmarkTimeFormat-12               	 6982236	       170.8 ns/op
+BenchmarkTimeFormat-12               	 7003801	       169.2 ns/op
+BenchmarkTimeFormat-12               	 6983533	       170.1 ns/op
+BenchmarkTimeFormat-12               	 6812054	       169.6 ns/op
+PASS
+ok  	test/bench/go1	289.865s
